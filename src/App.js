@@ -3,6 +3,7 @@ import ViewEmployee from './ViewEmployee';
 import AddEmployee from './AddEmployee';
 import Loading from './Loading';
 import axios from 'axios';
+import Clock from './components/Clock/index'
 
 class App extends Component {
   state = {
@@ -66,6 +67,7 @@ class App extends Component {
       <div className="container">
         <div style={{ padding: '20px 50px', margin: '0px auto' }}>
           <h1 style={{ display: 'inline' }}>Employee Dashboard</h1>
+          <Clock />
           <button
             className="btn btn-success"
             style={{ float: 'right' }}

@@ -4,7 +4,7 @@ class Loading extends Component {
   render() {
     return (
       <div className="card" style={{ textAlign: 'center' }}>
-        <div class="card-body">
+        <div className="card-body">
           <img src="loading.gif" alt="" />
           <p>Loading...</p>
         </div>
